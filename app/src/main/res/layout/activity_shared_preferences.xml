@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPreferencesTest">
+
+
+    <EditText
+        android:id="@+id/shared_et_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/shared_et_lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/shared_et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:hint="Age" />
+
+    <EditText
+        android:id="@+id/shared_et_job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:hint="Job" />
+
+    <Button
+        android:id="@+id/shared_btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/shared_btn_restore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="Restore" />
+
+    <TextView
+        android:id="@+id/shared_tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/shared_btn_goInternal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internal" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/shared_btn_goExternal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="External" />
+
+</LinearLayout>
